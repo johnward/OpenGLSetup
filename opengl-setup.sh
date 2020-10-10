@@ -6,6 +6,12 @@ sudo apt install -y xorg-dev libgl1-mesa-dev libglu-dev libassimp-dev libglm-dev
 mkdir opengl-setup
 cd opengl-setup
 
+
+sudo apt-get install xorg-dev libglu1-mesa-dev
+sudo apt install doxygen
+sudo apt-get install libx11-dev
+
+
 git clone https://github.com/glfw/glfw.git
 cd glfw
 cmake ./
